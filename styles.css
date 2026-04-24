@@ -344,6 +344,62 @@ ul {
   gap: 0.75rem;
 }
 
+/* --- Timeline Lists --- */
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: minmax(8rem, 11rem) 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.timeline-date {
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.timeline-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-org {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.timeline-type {
+  color: var(--color-primary);
+  font-size: 0.86rem;
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+}
+
+.timeline-description {
+  color: var(--color-text-muted);
+  font-size: 0.92rem;
+}
+
+.timeline-description p + p {
+  margin-top: 0.45rem;
+}
+
+.timeline-description a {
+  overflow-wrap: anywhere;
+}
+
 /* --- Publications --- */
 .publications-list {
   display: flex;
@@ -514,6 +570,11 @@ ul {
 
   .pub-year {
     width: auto;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
   }
 }
 

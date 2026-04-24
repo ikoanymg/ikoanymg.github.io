@@ -39,6 +39,219 @@ function setActiveLink() {
 window.addEventListener('scroll', setActiveLink, { passive: true });
 setActiveLink();
 
+// Render profile timeline data from lightweight text files.
+const educationList = document.querySelector('[data-education-list]');
+const experienceList = document.querySelector('[data-experience-list]');
+
+const DATE_PATTERN = /^(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}|\d{4})(?:\s*[-–]\s*(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}|\d{4}|Present))?(?:\s*·\s*.+)?$/;
+
+function isDateLine(line) {
+  return DATE_PATTERN.test(line);
+}
+
+function isDurationLine(line) {
+  return /^\d+\s+(?:yr|yrs|mo|mos)\b/.test(line);
+}
+
+function shouldSkipProfileLine(line) {
+  return !line ||
+    line === 'Experience' ||
+    line.endsWith(' logo') ||
+    line.startsWith('Thumbnail for ') ||
+    line.startsWith('Group photo of ') ||
+    line.startsWith('Skills:') ||
+    line === 'Official website:';
+}
+
+function getProfileLines(text) {
+  return text
+    .split(/\r?\n/)
+    .map(line => line.trim())
+    .filter(line => !shouldSkipProfileLine(line));
+}
+
+function createTimelineItem(item) {
+  const article = document.createElement('article');
+  article.className = 'timeline-item';
+
+  const date = createTextElement('div', 'timeline-date', item.date || '');
+  const body = document.createElement('div');
+  body.className = 'timeline-body';
+
+  body.appendChild(createTextElement('h3', 'timeline-title', item.title));
+
+  if (item.organization) {
+    body.appendChild(createTextElement('p', 'timeline-org', item.organization));
+  }
+
+  if (item.type) {
+    body.appendChild(createTextElement('p', 'timeline-type', item.type));
+  }
+
+  if (item.details?.length) {
+    const description = document.createElement('div');
+    description.className = 'timeline-description';
+
+    item.details.forEach(detail => {
+      const paragraph = document.createElement('p');
+
+      if (/^https?:\/\//.test(detail)) {
+        const link = document.createElement('a');
+        link.href = detail;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = detail;
+        paragraph.appendChild(link);
+      } else {
+        paragraph.textContent = detail;
+      }
+
+      description.appendChild(paragraph);
+    });
+
+    body.appendChild(description);
+  }
+
+  article.append(date, body);
+  return article;
+}
+
+function renderTimeline(target, items, emptyMessage) {
+  if (!target) {
+    return;
+  }
+
+  target.textContent = '';
+
+  if (!items.length) {
+    target.appendChild(createTextElement('p', 'placeholder-text', emptyMessage));
+    return;
+  }
+
+  items.forEach(item => target.appendChild(createTimelineItem(item)));
+}
+
+function parseEducation(text) {
+  const lines = getProfileLines(text);
+  const items = [];
+
+  for (let index = 0; index < lines.length;) {
+    const organization = lines[index];
+    const next = lines[index + 1] || '';
+    const following = lines[index + 2] || '';
+
+    if (isDateLine(next)) {
+      items.push({
+        title: organization,
+        organization: '',
+        date: next,
+        details: []
+      });
+      index += 2;
+    } else {
+      items.push({
+        title: next || organization,
+        organization,
+        date: isDateLine(following) ? following : '',
+        details: []
+      });
+      index += isDateLine(following) ? 3 : 2;
+    }
+  }
+
+  return items.filter(item => item.title);
+}
+
+function getExperienceEntryLeadCount(lines, dateIndex) {
+  const previous = lines[dateIndex - 1] || '';
+  const beforePrevious = lines[dateIndex - 2] || '';
+
+  if (beforePrevious && !isDurationLine(beforePrevious) && isExperienceOrganizationLine(previous)) {
+    return 2;
+  }
+
+  return 1;
+}
+
+function isExperienceOrganizationLine(line) {
+  return line.includes(' · ') ||
+    /University|College|Agency|JST|Electric|Toyota|Turing|photonics|株式会社/.test(line);
+}
+
+function parseExperienceOrganization(line) {
+  const [organization, ...types] = line.split(' · ').map(part => part.trim()).filter(Boolean);
+
+  return {
+    organization: organization || '',
+    type: types.join(' · ')
+  };
+}
+
+function findExperienceGroupOrganization(lines, dateIndex) {
+  for (let index = dateIndex - 1; index >= 0; index -= 1) {
+    if (isDurationLine(lines[index + 1] || '')) {
+      return lines[index];
+    }
+  }
+
+  return '';
+}
+
+function parseExperience(text) {
+  const lines = getProfileLines(text);
+  const dateIndexes = lines
+    .map((line, index) => isDateLine(line) ? index : -1)
+    .filter(index => index >= 0);
+  const items = [];
+
+  dateIndexes.forEach((dateIndex, entryIndex) => {
+    const leadCount = getExperienceEntryLeadCount(lines, dateIndex);
+    const title = leadCount === 2 ? lines[dateIndex - 2] : lines[dateIndex - 1];
+    const organizationData = parseExperienceOrganization(
+      leadCount === 2 ? lines[dateIndex - 1] : findExperienceGroupOrganization(lines, dateIndex)
+    );
+    const nextDateIndex = dateIndexes[entryIndex + 1] ?? lines.length;
+    const nextLeadCount = dateIndexes[entryIndex + 1]
+      ? getExperienceEntryLeadCount(lines, dateIndexes[entryIndex + 1])
+      : 0;
+    const detailsEnd = Math.max(dateIndex + 1, nextDateIndex - nextLeadCount);
+    const details = lines
+      .slice(dateIndex + 1, detailsEnd)
+      .filter(line => !isDurationLine(line));
+
+    items.push({
+      title,
+      organization: organizationData.organization,
+      type: organizationData.type,
+      date: lines[dateIndex],
+      details
+    });
+  });
+
+  return items.filter(item => item.title);
+}
+
+async function loadTimeline(path, target, parser, emptyMessage) {
+  if (!target) {
+    return;
+  }
+
+  try {
+    const response = await fetch(path, { cache: 'no-cache' });
+
+    if (!response.ok) {
+      throw new Error(`Unable to load ${path}: ${response.status}`);
+    }
+
+    renderTimeline(target, parser(await response.text()), emptyMessage);
+  } catch (error) {
+    renderTimeline(target, [], emptyMessage);
+  }
+}
+
+loadTimeline('data/education.txt', educationList, parseEducation, 'Education will be listed here.');
+loadTimeline('data/experience.txt', experienceList, parseExperience, 'Experience will be listed here.');
+
 // Render publications generated from Zotero data.
 const publicationsList = document.querySelector('[data-publications-list]');
 
