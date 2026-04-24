@@ -185,6 +185,18 @@ ul {
   background-clip: text;
 }
 
+.name-ja {
+  font-size: 0.65em;
+  color: var(--color-text-muted);
+  font-weight: 400;
+  -webkit-text-fill-color: var(--color-text-muted);
+}
+
+.placeholder-text {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
 .tagline {
   font-size: 1.05rem;
   color: var(--color-text-muted);
