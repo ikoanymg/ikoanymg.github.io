@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Researcher Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">ikoanymg</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- Hero / About -->
+  <section id="about" class="section hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Researcher</span></h1>
+          <p class="tagline">PhD Researcher &bull; Computer Science &bull; AI &amp; Machine Learning</p>
+          <p class="bio">
+            I am a passionate researcher working at the intersection of artificial intelligence,
+            machine learning, and data science. My work focuses on developing novel algorithms
+            and systems that can learn from complex, real-world data to solve challenging problems.
+          </p>
+          <div class="hero-links">
+            <a href="#publications" class="btn btn-primary">View Publications</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-placeholder">
+            <span>R</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Interests -->
+  <section id="research" class="section">
+    <div class="container">
+      <h2 class="section-title">Research Interests</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">&#129302;</div>
+          <h3>Machine Learning</h3>
+          <p>Developing novel learning algorithms, exploring generalization theory, and designing efficient optimization methods for large-scale models.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#128202;</div>
+          <h3>Data Science</h3>
+          <p>Extracting actionable insights from complex, high-dimensional datasets using statistical modeling and visualization techniques.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#129504;</div>
+          <h3>Natural Language Processing</h3>
+          <p>Building models that understand and generate human language, with applications in information retrieval, summarization, and dialogue systems.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">&#128064;</div>
+          <h3>Computer Vision</h3>
+          <p>Designing deep-learning architectures for image recognition, object detection, and scene understanding in real-world environments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <div class="publications-list">
+
+        <div class="publication-item">
+          <div class="pub-year">2024</div>
+          <div class="pub-details">
+            <h3 class="pub-title">Efficient Transformer Architectures for Long-Sequence Modeling</h3>
+            <p class="pub-authors">Author Name, Co-Author A, Co-Author B</p>
+            <p class="pub-venue">Proceedings of the International Conference on Machine Learning (ICML 2024)</p>
+            <div class="pub-links">
+              <a href="#" class="pub-link">PDF</a>
+              <a href="#" class="pub-link">arXiv</a>
+              <a href="#" class="pub-link">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-item">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h3 class="pub-title">Self-Supervised Learning from Heterogeneous Graph Data</h3>
+            <p class="pub-authors">Author Name, Co-Author C</p>
+            <p class="pub-venue">Neural Information Processing Systems (NeurIPS 2023)</p>
+            <div class="pub-links">
+              <a href="#" class="pub-link">PDF</a>
+              <a href="#" class="pub-link">arXiv</a>
+              <a href="#" class="pub-link">Slides</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-item">
+          <div class="pub-year">2023</div>
+          <div class="pub-details">
+            <h3 class="pub-title">Robust Few-Shot Classification under Distribution Shift</h3>
+            <p class="pub-authors">Author Name, Co-Author D, Co-Author E</p>
+            <p class="pub-venue">International Conference on Learning Representations (ICLR 2023)</p>
+            <div class="pub-links">
+              <a href="#" class="pub-link">PDF</a>
+              <a href="#" class="pub-link">arXiv</a>
+              <a href="#" class="pub-link">Poster</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-item">
+          <div class="pub-year">2022</div>
+          <div class="pub-details">
+            <h3 class="pub-title">Scalable Bayesian Deep Learning via Implicit Posterior Sampling</h3>
+            <p class="pub-authors">Author Name, Co-Author F</p>
+            <p class="pub-venue">AAAI Conference on Artificial Intelligence (AAAI 2022)</p>
+            <div class="pub-links">
+              <a href="#" class="pub-link">PDF</a>
+              <a href="#" class="pub-link">arXiv</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="cards-grid">
+
+        <div class="card project-card">
+          <div class="project-header">
+            <h3>OpenML Toolkit</h3>
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">PyTorch</span>
+            </div>
+          </div>
+          <p>An open-source toolkit for benchmarking machine learning models across diverse datasets, with built-in support for reproducibility and experiment tracking.</p>
+          <div class="project-links">
+            <a href="#" class="pub-link">GitHub</a>
+            <a href="#" class="pub-link">Docs</a>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-header">
+            <h3>NLP Benchmark Suite</h3>
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">HuggingFace</span>
+            </div>
+          </div>
+          <p>A comprehensive evaluation suite for natural language understanding tasks, enabling fair comparison of pretrained language models across diverse linguistic challenges.</p>
+          <div class="project-links">
+            <a href="#" class="pub-link">GitHub</a>
+            <a href="#" class="pub-link">Demo</a>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-header">
+            <h3>GraphNet Explorer</h3>
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">DGL</span>
+            </div>
+          </div>
+          <p>An interactive visualization and analysis tool for graph neural networks, supporting node classification, link prediction, and graph-level tasks on real-world graphs.</p>
+          <div class="project-links">
+            <a href="#" class="pub-link">GitHub</a>
+            <a href="#" class="pub-link">Paper</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper">
+        <p class="contact-intro">
+          I am always happy to discuss research collaborations, potential internships, or just interesting ideas.
+          Feel free to reach out!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com" class="contact-item">
+            <span class="contact-icon">&#9993;</span>
+            <span>your.email@example.com</span>
+          </a>
+          <a href="https://github.com/ikoanymg" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">&#128025;</span>
+            <span>github.com/ikoanymg</span>
+          </a>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">&#127979;</span>
+            <span>Google Scholar</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">&#128101;</span>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 ikoanymg. Built with HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
