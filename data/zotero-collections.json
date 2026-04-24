@@ -1,0 +1,1629 @@
+{
+  "generatedAt": "2026-04-24T05:50:08.915Z",
+  "library": {
+    "type": "user",
+    "id": "12053584"
+  },
+  "collections": [
+    {
+      "path": "00_Important",
+      "name": "00_Important",
+      "key": "J67YT7EL",
+      "parentCollection": null,
+      "numItems": 14,
+      "numCollections": 2,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "00_Important/Archicve",
+      "name": "Archicve",
+      "key": "ADLXUTPC",
+      "parentCollection": "J67YT7EL",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "00_Important/Reading",
+      "name": "Reading",
+      "key": "KAGDEEU9",
+      "parentCollection": "J67YT7EL",
+      "numItems": 12,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects",
+      "name": "01_Projects",
+      "key": "ZQHLAPYF",
+      "parentCollection": null,
+      "numItems": 0,
+      "numCollections": 14,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/CNT-SA fabrication",
+      "name": "CNT-SA fabrication",
+      "key": "9GVG6YZF",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 4,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/d_thesis_ref",
+      "name": "d_thesis_ref",
+      "key": "57BDISBS",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 488,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/D3_rinko",
+      "name": "D3_rinko",
+      "key": "2UZ9U5SH",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 106,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/FMCW_Capon",
+      "name": "FMCW_Capon",
+      "key": "VDML29W5",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 10,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/FURUKAWA_Ranging",
+      "name": "FURUKAWA_Ranging",
+      "key": "4EH9CBQJ",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 5,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/Journal review",
+      "name": "Journal review",
+      "key": "GGLRXBD9",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/mict_report",
+      "name": "mict_report",
+      "key": "PPHXV8QX",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 11,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/MOL",
+      "name": "MOL",
+      "key": "SJSPAAJS",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 16,
+      "numCollections": 1,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/MOL/Semiconductor manufacturing",
+      "name": "Semiconductor manufacturing",
+      "key": "GR4YRZ6V",
+      "parentCollection": "SJSPAAJS",
+      "numItems": 31,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/My publication",
+      "name": "My publication",
+      "key": "JY3HN4I2",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 17,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": "Source collection for the website Publications section."
+    },
+    {
+      "path": "01_Projects/nanocarbon-photonics_20th-review",
+      "name": "nanocarbon-photonics_20th-review",
+      "key": "X8NPBEBQ",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 30,
+      "numCollections": 1,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/nanocarbon-photonics_20th-review/references",
+      "name": "references",
+      "key": "BY2MG6I6",
+      "parentCollection": "X8NPBEBQ",
+      "numItems": 124,
+      "numCollections": 3,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/nanocarbon-photonics_20th-review/references/detectors",
+      "name": "detectors",
+      "key": "G7GHBZWI",
+      "parentCollection": "BY2MG6I6",
+      "numItems": 104,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/nanocarbon-photonics_20th-review/references/detectors - review",
+      "name": "detectors - review",
+      "key": "AIBBVHAM",
+      "parentCollection": "BY2MG6I6",
+      "numItems": 11,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/nanocarbon-photonics_20th-review/references/related review articles",
+      "name": "related review articles",
+      "key": "FQAGIVUG",
+      "parentCollection": "BY2MG6I6",
+      "numItems": 18,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/Neutron detection - Grad. Thesis",
+      "name": "Neutron detection - Grad. Thesis",
+      "key": "23M8THLC",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/POS-TOF",
+      "name": "POS-TOF",
+      "key": "KMGC2PDF",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 228,
+      "numCollections": 2,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/POS-TOF/[JJAP] Softwaer synchronization",
+      "name": "[JJAP] Softwaer synchronization",
+      "key": "75EJLEKS",
+      "parentCollection": "KMGC2PDF",
+      "numItems": 70,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/POS-TOF/[JLT] Two-channel Counter-propagating Optical Sampling Gate",
+      "name": "[JLT] Two-channel Counter-propagating Optical Sampling Gate",
+      "key": "E2AD9K89",
+      "parentCollection": "KMGC2PDF",
+      "numItems": 66,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/Visualization",
+      "name": "Visualization",
+      "key": "NHJ2WUHH",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "01_Projects/Woven Photonics",
+      "name": "Woven Photonics",
+      "key": "5GMD4A55",
+      "parentCollection": "ZQHLAPYF",
+      "numItems": 35,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc",
+      "name": "02_Misc",
+      "key": "SHU3LCUB",
+      "parentCollection": null,
+      "numItems": 0,
+      "numCollections": 8,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Commentary",
+      "name": "Commentary",
+      "key": "6Z6HFKKK",
+      "parentCollection": "SHU3LCUB",
+      "numItems": 59,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Historical",
+      "name": "Historical",
+      "key": "3NKRPLEH",
+      "parentCollection": "SHU3LCUB",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Patent",
+      "name": "Patent",
+      "key": "53APQEG9",
+      "parentCollection": "SHU3LCUB",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Tech NEWS",
+      "name": "Tech NEWS",
+      "key": "RV9TJPWU",
+      "parentCollection": "SHU3LCUB",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Technical Paper",
+      "name": "Technical Paper",
+      "key": "GU2DHQ7Z",
+      "parentCollection": "SHU3LCUB",
+      "numItems": 15,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Textbook",
+      "name": "Textbook",
+      "key": "NFGAPCN5",
+      "parentCollection": "SHU3LCUB",
+      "numItems": 41,
+      "numCollections": 1,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Textbook/Optical Performance Monitoring",
+      "name": "Optical Performance Monitoring",
+      "key": "XZB7Q6LF",
+      "parentCollection": "NFGAPCN5",
+      "numItems": 33,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Thesis",
+      "name": "Thesis",
+      "key": "LWUEMM3Q",
+      "parentCollection": "SHU3LCUB",
+      "numItems": 46,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "02_Misc/Tutorial",
+      "name": "Tutorial",
+      "key": "HPKM6KDX",
+      "parentCollection": "SHU3LCUB",
+      "numItems": 23,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher",
+      "name": "03_Publisher",
+      "key": "JI8MNQ49",
+      "parentCollection": null,
+      "numItems": 4,
+      "numCollections": 21,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/ACM",
+      "name": "ACM",
+      "key": "SS7Y3HAU",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/ACS",
+      "name": "ACS",
+      "key": "NRBUV8AL",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 8,
+      "numCollections": 5,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/ACS/Analytical Chemistry",
+      "name": "Analytical Chemistry",
+      "key": "CKGN2WND",
+      "parentCollection": "NRBUV8AL",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/ACS/Nano",
+      "name": "Nano",
+      "key": "47Q7QFLK",
+      "parentCollection": "NRBUV8AL",
+      "numItems": 6,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/ACS/Nano Letters",
+      "name": "Nano Letters",
+      "key": "N4SST3NH",
+      "parentCollection": "NRBUV8AL",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/ACS/Omega",
+      "name": "Omega",
+      "key": "IBVDVHXQ",
+      "parentCollection": "NRBUV8AL",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/ACS/Photonics",
+      "name": "Photonics",
+      "key": "T7XTPE6W",
+      "parentCollection": "NRBUV8AL",
+      "numItems": 67,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/AIP",
+      "name": "AIP",
+      "key": "4A58UV35",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 3,
+      "numCollections": 4,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/AIP/APL Photonics",
+      "name": "APL Photonics",
+      "key": "CGEA5XS6",
+      "parentCollection": "4A58UV35",
+      "numItems": 75,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/AIP/Applied Physics Letters",
+      "name": "Applied Physics Letters",
+      "key": "2TBYDTAK",
+      "parentCollection": "4A58UV35",
+      "numItems": 24,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/AIP/Applied Physics Reviews",
+      "name": "Applied Physics Reviews",
+      "key": "RJTT54XM",
+      "parentCollection": "4A58UV35",
+      "numItems": 4,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/AIP/Review of Scientific Instruments",
+      "name": "Review of Scientific Instruments",
+      "key": "NULDDHJ2",
+      "parentCollection": "4A58UV35",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS",
+      "name": "APS",
+      "key": "Q7F4PVLB",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 41,
+      "numCollections": 8,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS/Physical Review A",
+      "name": "Physical Review A",
+      "key": "MMLMJN6G",
+      "parentCollection": "Q7F4PVLB",
+      "numItems": 25,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS/Physical Review Applied",
+      "name": "Physical Review Applied",
+      "key": "IBA5JM5A",
+      "parentCollection": "Q7F4PVLB",
+      "numItems": 9,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS/Physical Review B",
+      "name": "Physical Review B",
+      "key": "AE6XSEN3",
+      "parentCollection": "Q7F4PVLB",
+      "numItems": 6,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS/Physical Review Journals Archive",
+      "name": "Physical Review Journals Archive",
+      "key": "MGRI6T5V",
+      "parentCollection": "Q7F4PVLB",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS/Physical Review Letters",
+      "name": "Physical Review Letters",
+      "key": "UW5NC7DV",
+      "parentCollection": "Q7F4PVLB",
+      "numItems": 26,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS/Physical Review Research",
+      "name": "Physical Review Research",
+      "key": "BSUYKUBA",
+      "parentCollection": "Q7F4PVLB",
+      "numItems": 6,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS/Physical Review X",
+      "name": "Physical Review X",
+      "key": "KG62VIH6",
+      "parentCollection": "Q7F4PVLB",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/APS/Reviews of Modern Physics",
+      "name": "Reviews of Modern Physics",
+      "key": "KTDAKUAE",
+      "parentCollection": "Q7F4PVLB",
+      "numItems": 14,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/arXiv",
+      "name": "arXiv",
+      "key": "2PFBI8GN",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 8,
+      "numCollections": 4,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/arXiv/cs.CV",
+      "name": "cs.CV",
+      "key": "DMHSVRQQ",
+      "parentCollection": "2PFBI8GN",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/arXiv/cs.RO",
+      "name": "cs.RO",
+      "key": "EU3CDYPY",
+      "parentCollection": "2PFBI8GN",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/arXiv/phys.Optics",
+      "name": "phys.Optics",
+      "key": "MVDPANZK",
+      "parentCollection": "2PFBI8GN",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/arXiv/phys.Quant-Phy",
+      "name": "phys.Quant-Phy",
+      "key": "75EA392U",
+      "parentCollection": "2PFBI8GN",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Cell",
+      "name": "Cell",
+      "key": "Y7XMPHJV",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 0,
+      "numCollections": 1,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Cell/Cell",
+      "name": "Cell",
+      "key": "FUZEVK2Y",
+      "parentCollection": "Y7XMPHJV",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/De Gruyter",
+      "name": "De Gruyter",
+      "key": "C37G7PDN",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 2,
+      "numCollections": 1,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/De Gruyter/Nanophotonics",
+      "name": "Nanophotonics",
+      "key": "WJP38DK2",
+      "parentCollection": "C37G7PDN",
+      "numItems": 9,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Elsevier",
+      "name": "Elsevier",
+      "key": "P3DSYQA3",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 7,
+      "numCollections": 6,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Elsevier/Neuron",
+      "name": "Neuron",
+      "key": "225RSF35",
+      "parentCollection": "P3DSYQA3",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Elsevier/Optical Fiber Technology",
+      "name": "Optical Fiber Technology",
+      "key": "VNBDA6DE",
+      "parentCollection": "P3DSYQA3",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Elsevier/Optics and Laser Technology",
+      "name": "Optics and Laser Technology",
+      "key": "F8JWZXSX",
+      "parentCollection": "P3DSYQA3",
+      "numItems": 7,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Elsevier/Optics and Lasers in Engineering",
+      "name": "Optics and Lasers in Engineering",
+      "key": "LAQM9RE4",
+      "parentCollection": "P3DSYQA3",
+      "numItems": 0,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Elsevier/Optics Communications",
+      "name": "Optics Communications",
+      "key": "RW5UVIKC",
+      "parentCollection": "P3DSYQA3",
+      "numItems": 13,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Elsevier/Progress in Quantum Electronics",
+      "name": "Progress in Quantum Electronics",
+      "key": "W5384ZIZ",
+      "parentCollection": "P3DSYQA3",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE",
+      "name": "IEEE",
+      "key": "7B3JCMGD",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 38,
+      "numCollections": 19,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Circuits and Systems Magazine",
+      "name": "Circuits and Systems Magazine",
+      "key": "C87WKRSH",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Communications Magazine",
+      "name": "Communications Magazine",
+      "key": "KRVTJQHC",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/CVPR",
+      "name": "CVPR",
+      "key": "WHPNIC3F",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/IEEE Access",
+      "name": "IEEE Access",
+      "key": "JYJK783F",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 6,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS",
+      "name": "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS",
+      "key": "JWD6D8ZC",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Journal of Quantum Electronics",
+      "name": "Journal of Quantum Electronics",
+      "key": "FEIAY24H",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 9,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Journal of Selected Topics in Quantum Electronics",
+      "name": "Journal of Selected Topics in Quantum Electronics",
+      "key": "BD75J6SW",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 23,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Journal of Solid-State Circuits",
+      "name": "Journal of Solid-State Circuits",
+      "key": "MA82TFMX",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Photonics Journal",
+      "name": "Photonics Journal",
+      "key": "WB3SZTGX",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 11,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Photonics Technology Letters",
+      "name": "Photonics Technology Letters",
+      "key": "48N6FIUB",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 28,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Proceedings",
+      "name": "Proceedings",
+      "key": "FTBLMPLH",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 50,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Sensors Journal",
+      "name": "Sensors Journal",
+      "key": "7VKVE9BW",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 14,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Signal Processing Magazine",
+      "name": "Signal Processing Magazine",
+      "key": "8ZTSZZXV",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Solid-State Circuits Letters",
+      "name": "Solid-State Circuits Letters",
+      "key": "3H2V3WTY",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/TIM",
+      "name": "TIM",
+      "key": "4EJXH9P4",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 5,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Transactions on Power Electronics",
+      "name": "Transactions on Power Electronics",
+      "key": "6Y37IYXG",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Transactions on Power Electronics",
+      "name": "Transactions on Power Electronics",
+      "key": "QRFXYPVT",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/Transactions on Signal Processing",
+      "name": "Transactions on Signal Processing",
+      "key": "3WCV9VE4",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEEE/VLSI",
+      "name": "VLSI",
+      "key": "VSBAXID3",
+      "parentCollection": "7B3JCMGD",
+      "numItems": 13,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IEICE",
+      "name": "IEICE",
+      "key": "DWWPRT5N",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 6,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IET",
+      "name": "IET",
+      "key": "VBDZEN3I",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 0,
+      "numCollections": 2,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IET/Electronics Letters",
+      "name": "Electronics Letters",
+      "key": "CFXCPSNI",
+      "parentCollection": "VBDZEN3I",
+      "numItems": 7,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IET/Proceedings",
+      "name": "Proceedings",
+      "key": "TVCJTSUG",
+      "parentCollection": "VBDZEN3I",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IOP Science",
+      "name": "IOP Science",
+      "key": "BNEP7NZD",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 4,
+      "numCollections": 3,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IOP Science/Journal of Optics",
+      "name": "Journal of Optics",
+      "key": "VWR3T4G9",
+      "parentCollection": "BNEP7NZD",
+      "numItems": 6,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IOP Science/Journal of Optics B",
+      "name": "Journal of Optics B",
+      "key": "MKCBVVMK",
+      "parentCollection": "BNEP7NZD",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/IOP Science/Reports on Progress in Physics",
+      "name": "Reports on Progress in Physics",
+      "key": "C4P2CJ78",
+      "parentCollection": "BNEP7NZD",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/jove",
+      "name": "jove",
+      "key": "BAWWG3JC",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/JSAP",
+      "name": "JSAP",
+      "key": "PFP5VXFL",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 0,
+      "numCollections": 3,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/JSAP/APEX",
+      "name": "APEX",
+      "key": "YS4L3EGR",
+      "parentCollection": "PFP5VXFL",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/JSAP/JJAP",
+      "name": "JJAP",
+      "key": "4XEG3JFI",
+      "parentCollection": "PFP5VXFL",
+      "numItems": 15,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/JSAP/Proceedings",
+      "name": "Proceedings",
+      "key": "XRRIQGTR",
+      "parentCollection": "PFP5VXFL",
+      "numItems": 5,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/MDPI",
+      "name": "MDPI",
+      "key": "8W2FAURV",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 9,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature",
+      "name": "Nature",
+      "key": "W5LVJBX4",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 177,
+      "numCollections": 19,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Communications Biology",
+      "name": "Communications Biology",
+      "key": "RMDAMRQR",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Communications Engineering",
+      "name": "Communications Engineering",
+      "key": "PU2Q78B8",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Communications Physics",
+      "name": "Communications Physics",
+      "key": "A6UPR6XW",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 9,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Light: Science and Applications",
+      "name": "Light: Science and Applications",
+      "key": "S2TDLK5D",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 163,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature",
+      "name": "Nature",
+      "key": "EXN8YQ95",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 82,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Communications",
+      "name": "Nature Communications",
+      "key": "4CEJTSWC",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 209,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Electronics",
+      "name": "Nature Electronics",
+      "key": "Z6PN52WY",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Machine Intelligence",
+      "name": "Nature Machine Intelligence",
+      "key": "V4TFNVCZ",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 6,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Materials",
+      "name": "Nature Materials",
+      "key": "TFG9F8D4",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Methods",
+      "name": "Nature Methods",
+      "key": "ZUYHCZHY",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 5,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Nanotechnology",
+      "name": "Nature Nanotechnology",
+      "key": "HEZK43HZ",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 12,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Photonics",
+      "name": "Nature Photonics",
+      "key": "6C64IIEE",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 122,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Physics",
+      "name": "Nature Physics",
+      "key": "MS3QZ25H",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Reviews",
+      "name": "Nature Reviews",
+      "key": "3RSLGZP2",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 7,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Reviews Materials",
+      "name": "Nature Reviews Materials",
+      "key": "W2JJYT8P",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Reviews Methods Primers",
+      "name": "Nature Reviews Methods Primers",
+      "key": "XPS9GGTT",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Nature Reviews Physics",
+      "name": "Nature Reviews Physics",
+      "key": "A3YVF5ZY",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 4,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/NPJ Quantum Information",
+      "name": "NPJ Quantum Information",
+      "key": "TQQAZEBL",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Nature/Scientific Reports",
+      "name": "Scientific Reports",
+      "key": "TJK2HS7E",
+      "parentCollection": "W5LVJBX4",
+      "numItems": 43,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica",
+      "name": "Optica",
+      "key": "V7IQH426",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 202,
+      "numCollections": 15,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Advances in Optics and Photonics",
+      "name": "Advances in Optics and Photonics",
+      "key": "3E9APTU9",
+      "parentCollection": "V7IQH426",
+      "numItems": 62,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Applied Optics",
+      "name": "Applied Optics",
+      "key": "V92F6A4H",
+      "parentCollection": "V7IQH426",
+      "numItems": 32,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Biomedical Optics Express",
+      "name": "Biomedical Optics Express",
+      "key": "BKPEI38E",
+      "parentCollection": "V7IQH426",
+      "numItems": 14,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/CLEO",
+      "name": "CLEO",
+      "key": "V4PRSBH3",
+      "parentCollection": "V7IQH426",
+      "numItems": 22,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/ECOC",
+      "name": "ECOC",
+      "key": "2UABJUYW",
+      "parentCollection": "V7IQH426",
+      "numItems": 24,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/JLT",
+      "name": "JLT",
+      "key": "ARKR8G64",
+      "parentCollection": "V7IQH426",
+      "numItems": 231,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/JOSA A",
+      "name": "JOSA A",
+      "key": "UPD8V3AA",
+      "parentCollection": "V7IQH426",
+      "numItems": 5,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/JOSA B",
+      "name": "JOSA B",
+      "key": "HZLWD2PG",
+      "parentCollection": "V7IQH426",
+      "numItems": 5,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/OFC",
+      "name": "OFC",
+      "key": "RUTMBSND",
+      "parentCollection": "V7IQH426",
+      "numItems": 14,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Optica",
+      "name": "Optica",
+      "key": "WRIIPW99",
+      "parentCollection": "V7IQH426",
+      "numItems": 106,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Optics Continuum",
+      "name": "Optics Continuum",
+      "key": "CLLKDLH6",
+      "parentCollection": "V7IQH426",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Optics Express",
+      "name": "Optics Express",
+      "key": "6843796U",
+      "parentCollection": "V7IQH426",
+      "numItems": 183,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Optics Letters",
+      "name": "Optics Letters",
+      "key": "ZMG84326",
+      "parentCollection": "V7IQH426",
+      "numItems": 53,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Photonics Research",
+      "name": "Photonics Research",
+      "key": "WYQTSVN6",
+      "parentCollection": "V7IQH426",
+      "numItems": 15,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Optica/Proceedings",
+      "name": "Proceedings",
+      "key": "33QX8L86",
+      "parentCollection": "V7IQH426",
+      "numItems": 13,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Science",
+      "name": "Science",
+      "key": "6N6HJ95H",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 6,
+      "numCollections": 2,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Science/Science",
+      "name": "Science",
+      "key": "NJ7N8AMJ",
+      "parentCollection": "6N6HJ95H",
+      "numItems": 34,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Science/Science Advances",
+      "name": "Science Advances",
+      "key": "7AVF9BL5",
+      "parentCollection": "6N6HJ95H",
+      "numItems": 11,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/SPIE",
+      "name": "SPIE",
+      "key": "U2G8VHUY",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 6,
+      "numCollections": 2,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/SPIE/Advanced Photonics",
+      "name": "Advanced Photonics",
+      "key": "RJH3BXBN",
+      "parentCollection": "U2G8VHUY",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/SPIE/Proceedings",
+      "name": "Proceedings",
+      "key": "338TGNT8",
+      "parentCollection": "U2G8VHUY",
+      "numItems": 24,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Springer",
+      "name": "Springer",
+      "key": "U9PILP5H",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 1,
+      "numCollections": 2,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Springer/Applied Physics B",
+      "name": "Applied Physics B",
+      "key": "9NWUGKRA",
+      "parentCollection": "U9PILP5H",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Springer/Journal of Electronic Materials",
+      "name": "Journal of Electronic Materials",
+      "key": "8JFMQ94X",
+      "parentCollection": "U9PILP5H",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Wiley",
+      "name": "Wiley",
+      "key": "8IWEI9YL",
+      "parentCollection": "JI8MNQ49",
+      "numItems": 3,
+      "numCollections": 7,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Wiley/Advanced Materials",
+      "name": "Advanced Materials",
+      "key": "C3S3KEY7",
+      "parentCollection": "8IWEI9YL",
+      "numItems": 0,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Wiley/Advanced Optical Materials",
+      "name": "Advanced Optical Materials",
+      "key": "BTK9AGZW",
+      "parentCollection": "8IWEI9YL",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Wiley/Advanced Photonics Research",
+      "name": "Advanced Photonics Research",
+      "key": "CFAZQ8YJ",
+      "parentCollection": "8IWEI9YL",
+      "numItems": 2,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Wiley/Laser & Photonics Reviews",
+      "name": "Laser & Photonics Reviews",
+      "key": "BIJ68UMZ",
+      "parentCollection": "8IWEI9YL",
+      "numItems": 31,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Wiley/Microwave and Optical Technology Letters",
+      "name": "Microwave and Optical Technology Letters",
+      "key": "I8QSPZCW",
+      "parentCollection": "8IWEI9YL",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Wiley/Nano Scale",
+      "name": "Nano Scale",
+      "key": "G52KQQ9I",
+      "parentCollection": "8IWEI9YL",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "03_Publisher/Wiley/Nano Select",
+      "name": "Nano Select",
+      "key": "HSEZWHDY",
+      "parentCollection": "8IWEI9YL",
+      "numItems": 1,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "The Royal Society of Chemistry",
+      "name": "The Royal Society of Chemistry",
+      "key": "ATCSCEZC",
+      "parentCollection": null,
+      "numItems": 0,
+      "numCollections": 1,
+      "includeSubcollections": false,
+      "purpose": ""
+    },
+    {
+      "path": "The Royal Society of Chemistry/Nanoscale",
+      "name": "Nanoscale",
+      "key": "GH7IBCB6",
+      "parentCollection": "ATCSCEZC",
+      "numItems": 3,
+      "numCollections": 0,
+      "includeSubcollections": false,
+      "purpose": ""
+    }
+  ]
+}
