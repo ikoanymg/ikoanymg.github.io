@@ -1,6 +1,34 @@
 // Mobile navigation toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
+const themeToggle = document.querySelector('[data-theme-toggle]');
+const themeToggleIcon = themeToggle?.querySelector('.theme-toggle-icon');
+const THEME_STORAGE_KEY = 'portfolio-theme';
+
+function applyTheme(theme) {
+  const nextTheme = theme === 'light' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = nextTheme;
+
+  if (!themeToggle || !themeToggleIcon) {
+    return;
+  }
+
+  const isLight = nextTheme === 'light';
+  themeToggle.setAttribute('aria-pressed', String(isLight));
+  themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+  themeToggleIcon.textContent = isLight ? '☾' : '☀';
+}
+
+applyTheme(localStorage.getItem(THEME_STORAGE_KEY) || 'dark');
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = document.documentElement.dataset.theme;
+    const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
+    localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+    applyTheme(nextTheme);
+  });
+}
 
 if (navToggle && navLinks) {
   navToggle.addEventListener('click', () => {
@@ -29,10 +57,7 @@ function setActiveLink() {
   });
 
   navAnchors.forEach(a => {
-    a.style.color = '';
-    if (a.getAttribute('href') === '#' + currentId) {
-      a.style.color = 'var(--color-primary)';
-    }
+    a.classList.toggle('active', a.getAttribute('href') === '#' + currentId);
   });
 }
 
