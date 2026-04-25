@@ -280,6 +280,12 @@ ul {
   transition: color var(--transition), border-color var(--transition), transform var(--transition);
 }
 
+.hero-profile-link svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: currentColor;
+}
+
 .hero-profile-link:hover {
   color: var(--color-primary);
   border-color: var(--color-primary);
