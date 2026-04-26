@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T05:55:17.969Z",
+  "generatedAt": "2026-04-26T18:18:33.515Z",
   "source": {
     "provider": "zotero",
     "libraryType": "user",
@@ -189,6 +189,18 @@
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/IC8ET2BG"
     },
     {
+      "id": "I79R8L7Z",
+      "itemType": "webpage",
+      "title": "Best Student Papers",
+      "authors": "",
+      "venue": "",
+      "date": "2022",
+      "year": "2022",
+      "doi": "",
+      "url": "https://2022.ieee-ipc.org/best-student-papers/",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/I79R8L7Z"
+    },
+    {
       "id": "NFNXCKHC",
       "itemType": "conferencePaper",
       "title": "光周波数変調連続波型測距システムの掃引非線形性補償手法の検討",
@@ -199,18 +211,6 @@
       "doi": "10.11470/jsapmeeting.2020.2.0_744",
       "url": "https://doi.org/10.11470/jsapmeeting.2020.2.0_744",
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/NFNXCKHC"
-    },
-    {
-      "id": "I79R8L7Z",
-      "itemType": "webpage",
-      "title": "Best Student Papers",
-      "authors": "",
-      "venue": "",
-      "date": "",
-      "year": "",
-      "doi": "",
-      "url": "https://2022.ieee-ipc.org/best-student-papers/",
-      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/I79R8L7Z"
     }
   ]
 }
