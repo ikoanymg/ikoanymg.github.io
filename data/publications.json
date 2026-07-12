@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T18:25:47.834Z",
+  "generatedAt": "2026-07-12T18:21:27.552Z",
   "source": {
     "provider": "zotero",
     "libraryType": "user",
@@ -16,7 +16,7 @@
       "venue": "Optics Express",
       "date": "2026/03/09",
       "year": "2026",
-      "doi": "",
+      "doi": "10.1364/OE.589948",
       "url": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-5-8598",
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/HTT3HUJ3"
     },
@@ -211,6 +211,18 @@
       "doi": "10.11470/jsapmeeting.2020.2.0_744",
       "url": "https://doi.org/10.11470/jsapmeeting.2020.2.0_744",
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/NFNXCKHC"
+    },
+    {
+      "id": "NYAEDD2F",
+      "itemType": "webpage",
+      "title": "IEEE Standards Association",
+      "authors": "",
+      "venue": "",
+      "date": "",
+      "year": "",
+      "doi": "",
+      "url": "https://standards.ieee.org/ieee/802.3df/11107/",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/NYAEDD2F"
     }
   ]
 }
