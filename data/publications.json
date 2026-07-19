@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T18:21:27.552Z",
+  "generatedAt": "2026-07-19T18:21:00.655Z",
   "source": {
     "provider": "zotero",
     "libraryType": "user",
@@ -31,6 +31,18 @@
       "doi": "10.1109/TNS.2026.3665227",
       "url": "https://ieeexplore.ieee.org/document/11397409",
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/DUJ23JD9"
+    },
+    {
+      "id": "DRMUX6ZD",
+      "itemType": "conferencePaper",
+      "title": "単一 HNLF 共有構成デュアルチャネル非線形光サンプリング  ゲートによるピコ秒時間分解遅延計測",
+      "authors": "Naoki Yamaguchi, Hayato Yoshimura, Shinji Yamashita, Sze Yun Set",
+      "venue": "Lightwave Sensing Technology 73th",
+      "date": "2025-12",
+      "year": "2025",
+      "doi": "",
+      "url": "",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/DRMUX6ZD"
     },
     {
       "id": "3GAHDIF9",
@@ -72,7 +84,7 @@
       "id": "JLI6EJ8Z",
       "itemType": "conferencePaper",
       "title": "Application of Graphene-Doped Polymer Optical Waveguides to Wavelength Convertor",
-      "authors": "Ken Kuboyama, Naoki Yamaguchi, Sze Yum Set, Shinji Yamashita, Takaaki Ishigure",
+      "authors": "Ken Kuboyama, Naoki Yamaguchi, Sze Yun Set, Shinji Yamashita, Takaaki Ishigure",
       "venue": "2025 IEEE CPMT Symposium Japan (ICSJ)",
       "date": "2025-01-01",
       "year": "2025",
@@ -117,16 +129,16 @@
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/B3LHTJ56"
     },
     {
-      "id": "RYTIV535",
+      "id": "RQSHY7MH",
       "itemType": "conferencePaper",
-      "title": "Pump-controlled mode-locking switching in an all-polarization-maintaining fiber laser",
-      "authors": "Maolin Dai, Bowen Liu, Guanyu Ye, Yifan Ma, Naoki Yamaguchi, Takuma Shirahata, Sze Yun Set, Shinji Yamashita",
-      "venue": "CLEO: Science and Innovations",
-      "date": "2024",
+      "title": "相関行列を用いたスペクトル最適化による  周波数領域測距の高解像化",
+      "authors": "Naoki Yamaguchi, Takanori Yamauchi, Takayuki Kitamura, Nobuki Kotake, Shinji Yamashita, Sze Yun Set",
+      "venue": "Lightwave Sensing Thechnology 70th",
+      "date": "6-2024",
       "year": "2024",
-      "doi": "10.1364/CLEO_SI.2024.SM4I.4",
-      "url": "https://opg.optica.org/abstract.cfm?URI=CLEO_SI-2024-SM4I.4",
-      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/RYTIV535"
+      "doi": "",
+      "url": "",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/RQSHY7MH"
     },
     {
       "id": "ITZRLA4F",
@@ -139,6 +151,18 @@
       "doi": "10.1364/CLEO_AT.2024.JTh2A.180",
       "url": "https://opg.optica.org/abstract.cfm?URI=CLEO_AT-2024-JTh2A.180",
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/ITZRLA4F"
+    },
+    {
+      "id": "RYTIV535",
+      "itemType": "conferencePaper",
+      "title": "Pump-controlled mode-locking switching in an all-polarization-maintaining fiber laser",
+      "authors": "Maolin Dai, Bowen Liu, Guanyu Ye, Yifan Ma, Naoki Yamaguchi, Takuma Shirahata, Sze Yun Set, Shinji Yamashita",
+      "venue": "CLEO: Science and Innovations",
+      "date": "2024",
+      "year": "2024",
+      "doi": "10.1364/CLEO_SI.2024.SM4I.4",
+      "url": "https://opg.optica.org/abstract.cfm?URI=CLEO_SI-2024-SM4I.4",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/RYTIV535"
     },
     {
       "id": "Q5WW39IF",
@@ -213,16 +237,16 @@
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/NFNXCKHC"
     },
     {
-      "id": "NYAEDD2F",
-      "itemType": "webpage",
-      "title": "IEEE Standards Association",
-      "authors": "",
+      "id": "FDFHEQDY",
+      "itemType": "journalArticle",
+      "title": "Shared-HNLF dual-channel asynchronous nonlinear optical sampling for differential timing measurements",
+      "authors": "Naoki Yamaguchi, Shinji Yamashita, Sze Yun Set",
       "venue": "",
       "date": "",
       "year": "",
       "doi": "",
-      "url": "https://standards.ieee.org/ieee/802.3df/11107/",
-      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/NYAEDD2F"
+      "url": "",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/FDFHEQDY"
     }
   ]
 }
