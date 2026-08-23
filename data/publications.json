@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T18:27:51.880Z",
+  "generatedAt": "2026-08-23T18:06:13.410Z",
   "source": {
     "provider": "zotero",
     "libraryType": "user",
@@ -8,6 +8,18 @@
     "includeSubcollections": false
   },
   "items": [
+    {
+      "id": "U7CWVBAS",
+      "itemType": "journalArticle",
+      "title": "Spatial Distribution of Terrestrial Neutron Flux in a Five-Story Concrete Building",
+      "authors": "Yukinobu Watanabe, Hirotaka Tanaka, Yu Horai, Naoki Yamaguchi, Takashi Kato",
+      "venue": "IEEE Transactions on Nuclear Science",
+      "date": "2026-08",
+      "year": "2026",
+      "doi": "10.1109/TNS.2026.3665227",
+      "url": "https://ieeexplore.ieee.org/document/11397409",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/U7CWVBAS"
+    },
     {
       "id": "HTT3HUJ3",
       "itemType": "journalArticle",
@@ -19,18 +31,6 @@
       "doi": "10.1364/OE.589948",
       "url": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-5-8598",
       "zoteroUrl": "https://www.zotero.org/ikoanymg/items/HTT3HUJ3"
-    },
-    {
-      "id": "DUJ23JD9",
-      "itemType": "journalArticle",
-      "title": "Spatial Distribution of Terrestrial Neutron Flux in a Five-story Concrete Building",
-      "authors": "Yukinobu Watanabe, Hirotaka Tanaka, Yu Horai, Naoki Yamaguchi, Takashi Kato",
-      "venue": "IEEE Transactions on Nuclear Science",
-      "date": "2026",
-      "year": "2026",
-      "doi": "10.1109/TNS.2026.3665227",
-      "url": "https://ieeexplore.ieee.org/document/11397409",
-      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/DUJ23JD9"
     },
     {
       "id": "DRMUX6ZD",
