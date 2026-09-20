@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T20:23:51.664Z",
+  "generatedAt": "2026-09-20T20:23:48.655Z",
   "source": {
     "provider": "zotero",
     "libraryType": "user",
@@ -8,6 +8,30 @@
     "includeSubcollections": false
   },
   "items": [
+    {
+      "id": "CK3BALHD",
+      "itemType": "conferencePaper",
+      "title": "Nonlinear Optical Sampling with FFT-based Scalable Software Synchronization",
+      "authors": "Naoki Yamaguchi, Shinji Yamashita, Sze Yun Set",
+      "venue": "JSAP-OPTICA Joint Symposia",
+      "date": "9th September, 2026",
+      "year": "2026",
+      "doi": "",
+      "url": "",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/CK3BALHD"
+    },
+    {
+      "id": "JZ4KZGLN",
+      "itemType": "conferencePaper",
+      "title": "Dual-Channel Nonlinear Optical Sampling for Optical Communication Monitoring",
+      "authors": "Naoki Yamaguchi, Shinji Yamashita, Sze Yun Set",
+      "venue": "JSAP-OPTICA Joint Symposia",
+      "date": "9th September, 2026",
+      "year": "2026",
+      "doi": "",
+      "url": "",
+      "zoteroUrl": "https://www.zotero.org/ikoanymg/items/JZ4KZGLN"
+    },
     {
       "id": "U7CWVBAS",
       "itemType": "journalArticle",
